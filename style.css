@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  scroll-behavior:smooth;
 }
 
 body {
@@ -57,4 +58,25 @@ section img {
 
 #gardan {
     z-index: 3;
+}
+
+/*======*/
+h1{
+  color:#ffffff;
+  margin-top:100px;
+  margin-bottom:100px;
+  font-weight:900;
+  text-align:center;
+}
+.flex{
+  display:flex;
+  margin:5%;
+}
+h3{
+  color:#ffffff;
+  padding-bottom:10px;
+}
+.one, .two{
+  color:grey;
+  padding:2%;
 }
